@@ -10,6 +10,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { MapComponent } from './@core/components/map/map.component';
+import { BoxmapComponent } from './components/boxmap/boxmap.component';
 
 
 
@@ -20,7 +21,8 @@ import { MapComponent } from './@core/components/map/map.component';
     HomeComponent,
     BodyComponent,
     FooterComponent,
-    MapComponent
+    MapComponent,
+    BoxmapComponent
   ],
   imports: [
     BrowserModule,
