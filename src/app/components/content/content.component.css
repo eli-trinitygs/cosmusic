@@ -1,7 +1,7 @@
 #content-page {
     display: grid;
     /* background: red; */
-    height: 70vh;
+    height: 100vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     margin: 0;

@@ -13,6 +13,7 @@ import { BoxmapComponent } from './components/boxmap/boxmap.component';
 import { PlayComponent } from './components/play/play.component';
 import { AlbumComponent } from './components/album/album.component';
 import { ContentComponent } from './components/content/content.component';
+import { TindermusicComponent } from './components/tindermusic/tindermusic.component';
 
 
 
@@ -26,7 +27,8 @@ import { ContentComponent } from './components/content/content.component';
     BoxmapComponent,
     PlayComponent,
     AlbumComponent,
-    ContentComponent
+    ContentComponent,
+    TindermusicComponent
   ],
   imports: [
     BrowserModule,
