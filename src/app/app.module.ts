@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { HomeComponent } from './components/home/home.component';
-import { BodyComponent } from './components/body/body.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
@@ -21,7 +20,6 @@ import { AlbumComponent } from './components/album/album.component';
     AppComponent,
     NavigationComponent,
     HomeComponent,
-    BodyComponent,
     FooterComponent,
     MapComponent,
     BoxmapComponent,
