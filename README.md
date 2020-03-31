@@ -1,5 +1,38 @@
 # ▂ ▃ ▅ ▆ █▓▒░░. C O S M U S I C .░░▒▓█ ▆ ▅ ▃ ▂ 
 
+COSMUSIC es un sitio web de música, dón podrás conectar con una gran comunidad y dejarte llevar por medio de las ondas sonoras que nos conectan con el universo: MUSICA.
+
+
+Para desarrollar este sitio, se utilizaron las siguientes tecnologías:
+
+- Angular 8
+- Material Angular
+- HTML5, CSS
+- Api MAPBOX
+- Types mapbox-gl (Libreria npm)
+- Api Deezer 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
