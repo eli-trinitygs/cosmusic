@@ -9,6 +9,7 @@ import { BodyComponent } from './components/body/body.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import { MapComponent } from './@core/components/map/map.component';
 
 
 
@@ -18,7 +19,8 @@ import { MaterialModule } from './material/material.module';
     NavigationComponent,
     HomeComponent,
     BodyComponent,
-    FooterComponent
+    FooterComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
