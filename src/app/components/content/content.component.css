@@ -1,0 +1,39 @@
+#content-page {
+    display: grid;
+    /* background: red; */
+    height: 70vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+    padding: 0;
+}
+
+#bkn-left {
+    background: url('../../../assets/banner-1.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    grid-column: 1/2;
+}
+#bkn-right {
+    background: #333333;
+    padding: 3rem;
+    color: white;
+}
+#bkn-right h2 {
+    margin: 1rem;
+    text-align: center;
+}
+button {
+    width: 100%;
+    margin: 3rem auto;
+    padding: 1rem;
+    height: 12%;
+    background: rgb(83, 33, 33);
+    color:white;
+    font-size: 1.5rem;
+}
+button:hover {
+    background: red;
+}

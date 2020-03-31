@@ -8,14 +8,29 @@
     margin: 0;
     padding: 0;
 }
-
-.title-page {
-    font-size: 4rem;
-    color: white;
+#content-page {
+    padding: 7rem;
     text-align: center;
-    margin: 5rem auto;
+    font-size: 7rem;
+    color: white;
 }
-p {
-    margin: 0;
-    padding: 0;
-}
+    .t-stroke {
+      color: transparent;
+      -moz-text-stroke-width: 2px;
+      -webkit-text-stroke-width: 2px;
+      -moz-text-stroke-color: #000000;
+      -webkit-text-stroke-color: #ffffff;
+    }
+
+    .t-stroke {
+          color: transparent;
+          -moz-text-stroke-width: 2px;
+          -webkit-text-stroke-width: 2px;
+          -moz-text-stroke-color: #000000;
+          -webkit-text-stroke-color: #ffffff;
+        }
+      
+        .t-shadow {
+          text-shadow: 7px 7px #8b05f8;
+        }
+        
