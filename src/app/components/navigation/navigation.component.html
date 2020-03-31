@@ -1,10 +1,7 @@
 <header id="banner-header">
     <nav>
-        <button mat-button color="primary" [matMenuTriggerFor]="aboveMenu">Above</button>
-        <mat-menu #aboveMenu="matMenu" yPosition="above">
-          <button mat-menu-item>Item 1</button>
-          <button mat-menu-item>Item 2</button>
-        </mat-menu>
+        <a mat-button color="primary"
+        [routerLink]= "['/play']" target="_blank">PLAY</a>
         
         <button mat-button color="primary" [matMenuTriggerFor]="belowMenu">Below</button>
         <mat-menu #belowMenu="matMenu" yPosition="below">
@@ -26,5 +23,10 @@
         </mat-menu>
     </nav>
 </header>
+<app-home></app-home>
+<app-body></app-body>
+<app-boxmap></app-boxmap>
+<app-footer></app-footer>
+
 
 

@@ -11,6 +11,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { MapComponent } from './@core/components/map/map.component';
 import { BoxmapComponent } from './components/boxmap/boxmap.component';
+import { PlayComponent } from './components/play/play.component';
+import { AlbumComponent } from './components/album/album.component';
 
 
 
@@ -22,7 +24,9 @@ import { BoxmapComponent } from './components/boxmap/boxmap.component';
     BodyComponent,
     FooterComponent,
     MapComponent,
-    BoxmapComponent
+    BoxmapComponent,
+    PlayComponent,
+    AlbumComponent
   ],
   imports: [
     BrowserModule,

@@ -56,4 +56,6 @@ searchUbication(lng: number, lat: number) {
     );
 }
 
+
+
 }
